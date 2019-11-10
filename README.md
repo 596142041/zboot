@@ -4,6 +4,7 @@ Generic STM32 serial bootloader, with a simple command-line interface
 某次@xjtuecho提到他做的一个bootloader, 支持N多型号, 只要改下配置文件就能适应不同型号；此外还提供了简单的命令解释器, 可以在串口命令行实现查看/擦除任意位置flash, 模拟eeprom读写(与app共享)等功能. 是不是挺实用? 于是打算自己也实现一个.
 
 ## 开发环境
+## 第一次同步
 
 arm-none-eabi-gcc 4.9.3. Keil或IAR用户可能需要手动修改链接脚本和Makefile之类.
 
